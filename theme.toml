@@ -1,0 +1,12 @@
+name = "xmin2"
+license = "MIT"
+licenselink = "https://github.com/thomasheller/xmin2/blob/master/LICENSE.md"
+description = "super minimalistic theme for Hugo based on XMin"
+homepage = "https://github.com/thomasheller/xmin2"
+tags = ["minimal", "blog", "personal", "clean", "simple", "starter", "minimalist"]
+features = ["blog"]
+min_version = "0.18"
+
+[author]
+  name = "Thomas Heller"
+  homepage = "https://github.com/thomasheller/xmin2"
