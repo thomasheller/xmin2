@@ -10,3 +10,4 @@ What's changed:
 - different `<hr>` style
 - no special styling for `<h1>` (meta information)
 - ISO 8601 date format
+- less prominent date styling
