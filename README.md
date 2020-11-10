@@ -8,3 +8,4 @@ What's changed:
 
 - only up to 5 recent posts on home page
 - different `<hr>` style
+- no special styling for `<h1>` (meta information)

@@ -15,7 +15,6 @@ body {
   display: inline-block;
 }
 
-.article-meta,
 .menu a {
   text-decoration: none;
   background: #eee;
@@ -24,7 +23,6 @@ body {
 }
 
 .menu,
-.article-meta,
 footer {
   text-align: center;
 }
