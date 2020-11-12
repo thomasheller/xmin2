@@ -1,4 +1,10 @@
-# xmin2
+---
+title: Home
+---
+
+[<img src="https://simpleicons.org/icons/github.svg" style="max-width:15%;min-width:40px;float:right;" alt="Github repo" />](https://github.com/yihui/hugo-xmin)
+
+# Hugo theme xmin2
 
 xmin2 is a super minimalistic theme for [Hugo](https://gohugo.io/)
 based on [XMin](https://github.com/yihui/hugo-xmin)
@@ -33,12 +39,12 @@ find . -not -path '*/exampleSite/*' \( -name '*.html' -o -name '*.css' \) | xarg
 Check out the
 [custom header](https://github.com/thomasheller/xmin2/blob/master/exampleSite/layouts/partials/head_custom.html)
 file to see how to enable LaTeX support.
+Rendered MathJax looks like this:
 
-To preview this theme locally, run:
+When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 
-```bash
-git clone https://github.com/thomasheller/xmin2
-cd xmin2/exampleSite
-hugo serve -t ../..
-```
+Here comes the list of recent posts:
+
+## Latest posts
 

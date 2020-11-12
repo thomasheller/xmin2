@@ -1,0 +1,33 @@
+baseurl: "/"
+languageCode: "en-us"
+title: "A minimal Hugo website"
+theme: "xmin2"
+googleAnalytics: ""
+disqusShortname: ""
+footnotereturnlinkcontents: "↩"
+
+menu:
+  main:
+    - name: Home
+      url: ""
+      weight: 1
+    - name: About
+      url: "about/"
+      weight: 2
+    - name: Categories
+      url: "categories/"
+      weight: 3
+    - name: Tags
+      url: "tags/"
+      weight: 4
+    - name: RSS
+      url: "index.xml"
+      weight: 5
+
+params:
+  footer: "&copy; 2020 John Doe | powered by [Hugo](https://gohugo.io/) and [xmin2](https://themes.gohugo.io/xmin2/)"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
