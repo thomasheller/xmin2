@@ -6,28 +6,33 @@ by [Yihui Xie](https://yihui.org/).
 
 What's changed compared to the original XMin theme:
 
-- only up to 5 recent posts on home page
-- different `<hr>` style
+- only up to 10 recent posts on home page
+- solid `<hr>` style
 - no special styling for article meta information
 - ISO 8601 date format
 - less prominent date styling
+- paper style background
+- link color
+- larger line height for headings
+- language switcher with the [LanguageIcon](https://www.languageicon.org)
+- redesigned header to include site title
 
 ```bash
 find . -not -path '*/exampleSite/*' \( -name '*.html' -o -name '*.css' \) | xargs wc -l
 ```
 
 ```
-   9 ./layouts/partials/footer.html
-  20 ./layouts/partials/header.html
    0 ./layouts/partials/head_custom.html
+  40 ./layouts/partials/header.html
    0 ./layouts/partials/foot_custom.html
+  10 ./layouts/partials/footer.html
+   5 ./layouts/404.html
   10 ./layouts/_default/single.html
   20 ./layouts/_default/list.html
   13 ./layouts/_default/terms.html
-   5 ./layouts/404.html
+ 137 ./static/css/style.css
    8 ./static/css/fonts.css
-  98 ./static/css/style.css
- 183 total
+ 243 total
 ```
 
 Check out the
