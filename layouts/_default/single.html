@@ -7,4 +7,13 @@
 {{ .Content }}
 </main>
 
+{{ if .Params.tags }}
+<div class="tags">Tags:
+{{ range $i, $e := .Params.tags -}}
+{{ if (ne $i 0) }}, {{ end -}}
+<a href="{{ "/tags/" | relLangURL }}{{ $e | urlize }}">{{ $e }}</a>
+{{- end }}
+</div>
+{{ end }}
+
 {{ partial "footer.html" . }}

@@ -16,6 +16,7 @@ What's changed compared to the original XMin theme:
 - larger line height for headings
 - language switcher with the [LanguageIcon](https://www.languageicon.org)
 - redesigned header to include site title
+- tags are shown below posts
 
 ```bash
 find . -not -path '*/exampleSite/*' \( -name '*.html' -o -name '*.css' \) | xargs wc -l
@@ -27,12 +28,12 @@ find . -not -path '*/exampleSite/*' \( -name '*.html' -o -name '*.css' \) | xarg
    0 ./layouts/partials/foot_custom.html
   10 ./layouts/partials/footer.html
    5 ./layouts/404.html
-  10 ./layouts/_default/single.html
+  17 ./layouts/_default/single.html
   20 ./layouts/_default/list.html
   13 ./layouts/_default/terms.html
- 137 ./static/css/style.css
+ 147 ./static/css/style.css
    8 ./static/css/fonts.css
- 243 total
+ 260 total
 ```
 
 Check out the
